@@ -1,7 +1,7 @@
 # **FRESHCYCLE**
 ![freshcycle](images/freshcycle.png)
 
-A Simple, Smart Way to Reduce Food Waste and Help Farmers Earn More.
+**A Simple, Smart Way to Reduce Food Waste and Help Farmers Earn More.**
 
 FreshCycle is a mobile app that helps small farmers sell their produce before it spoils. It is a rule-based aggregation and coordination platform designed to reduce post-harvest losses among African smallholder farmers.
 By pooling small produce volumes into bulk lots and matching them with buyers before spoilage occurs, FreshCycle improves farmer income, enhances market transparency, and enables circular economy practices in agriculture. 
