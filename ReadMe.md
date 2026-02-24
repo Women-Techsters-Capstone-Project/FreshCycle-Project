@@ -43,7 +43,7 @@ FreshCycle follows a **modular, role-based architecture** designed for scalabili
 The system is divided into four main layers:
 
 ### Frontend
-This is what users interact with.nIt includes:
+This is what users interact with. It includes:
 
 #### Farmer Interface
 
@@ -83,7 +83,7 @@ Design Principles:
 * SMS fallback integration
 
 
-# Backend
+### Backend
 This is the “brain” of the system.It contains:
 
 #### Aggregation Engine
@@ -137,7 +137,7 @@ Maintains:
 * Badge levels
 
 
-# Data Layer (Database & Storage)
+### Data Layer (Database & Storage)
 
 Responsible for storing system data securely. Includes:
 
@@ -194,7 +194,7 @@ FreshCycle is built on:
 * Secure, role-based access
 
 
-#  Deployment Structure (Conceptual)
+##  Deployment Structure (Conceptual)
 
 The system can be deployed as:
 
