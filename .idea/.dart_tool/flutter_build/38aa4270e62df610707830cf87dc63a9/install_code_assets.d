@@ -1,0 +1,1 @@
+ C:\\Users\\USER\\freshcycle\\.dart_tool\\flutter_build\\38aa4270e62df610707830cf87dc63a9\\native_assets.json: 
