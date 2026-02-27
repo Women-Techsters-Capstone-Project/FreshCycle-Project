@@ -1,0 +1,524 @@
+lot_id,country,region,weighted_avg_ask_price_usd_per_kg,max_days_since_harvest,recommended_discount_pct,priority
+LOT00486,South Africa,Limpopo,1.31,6.0,0.25,HIGH
+LOT00002,Kenya,Kiambu,0.83,2.0,0.0,LOW
+LOT00003,Kenya,Kiambu,1.66,6.0,0.08,MEDIUM
+LOT00004,Kenya,Kiambu,1.8,4.0,0.0,LOW
+LOT00065,Kenya,Mombasa,1.12,6.0,0.25,HIGH
+LOT00294,Nigeria,Oyo,1.7,5.0,0.08,MEDIUM
+LOT00009,Kenya,Kiambu,0.79,16.0,0.08,MEDIUM
+LOT00011,Kenya,Kiambu,0.92,2.0,0.0,LOW
+LOT00013,Kenya,Kiambu,1.7,4.0,0.25,HIGH
+LOT00281,Nigeria,Lagos,1.12,4.0,0.15,HIGH
+LOT00017,Kenya,Kiambu,1.35,6.0,0.25,HIGH
+LOT00252,Nigeria,Lagos,0.68,3.0,0.08,MEDIUM
+LOT00299,Nigeria,Oyo,0.78,22.0,0.15,HIGH
+LOT00044,Kenya,Mombasa,0.7,4.0,0.15,HIGH
+LOT00022,Kenya,Kiambu,0.55,12.0,0.0,LOW
+LOT00056,Kenya,Mombasa,0.78,2.0,0.0,LOW
+LOT00024,Kenya,Machakos,0.82,8.0,0.25,HIGH
+LOT00195,Nigeria,Kaduna,0.89,2.0,0.0,LOW
+LOT00025,Kenya,Machakos,0.72,4.0,0.15,HIGH
+LOT00027,Kenya,Machakos,1.85,6.0,0.08,MEDIUM
+LOT00031,Kenya,Machakos,1.46,3.0,0.08,MEDIUM
+LOT00035,Kenya,Machakos,0.7,28.0,0.15,HIGH
+LOT00037,Kenya,Machakos,0.59,12.0,0.0,LOW
+LOT00039,Kenya,Machakos,0.54,14.0,0.0,LOW
+LOT00493,South Africa,Western Cape,0.91,4.0,0.08,MEDIUM
+LOT00358,South Africa,Eastern Cape,0.94,9.0,0.25,HIGH
+LOT00041,Kenya,Machakos,1.04,2.0,0.0,LOW
+LOT00058,Kenya,Mombasa,1.6,6.0,0.25,HIGH
+LOT00042,Kenya,Mombasa,0.83,10.0,0.25,HIGH
+LOT00043,Kenya,Mombasa,0.81,4.0,0.08,MEDIUM
+LOT00045,Kenya,Mombasa,0.79,4.0,0.08,MEDIUM
+LOT00333,Nigeria,Rivers,1.69,6.0,0.08,MEDIUM
+LOT00046,Kenya,Mombasa,0.7,2.0,0.0,LOW
+LOT00047,Kenya,Mombasa,1.8,4.0,0.0,LOW
+LOT00359,South Africa,Eastern Cape,0.91,8.0,0.25,HIGH
+LOT00050,Kenya,Mombasa,1.62,1.0,0.0,LOW
+LOT00051,Kenya,Mombasa,0.87,12.0,0.0,LOW
+LOT00472,South Africa,KwaZulu-Natal,1.04,6.0,0.15,HIGH
+LOT00052,Kenya,Mombasa,0.9,6.0,0.15,HIGH
+LOT00053,Kenya,Mombasa,0.89,4.0,0.08,MEDIUM
+LOT00315,Nigeria,Oyo,1.43,2.0,0.0,LOW
+LOT00055,Kenya,Mombasa,0.94,2.0,0.0,LOW
+LOT00059,Kenya,Mombasa,1.51,4.0,0.08,MEDIUM
+LOT00060,Kenya,Mombasa,1.46,2.0,0.0,LOW
+LOT00061,Kenya,Mombasa,1.24,4.0,0.08,MEDIUM
+LOT00062,Kenya,Mombasa,1.31,5.0,0.25,HIGH
+LOT00063,Kenya,Mombasa,1.28,4.0,0.15,HIGH
+LOT00450,South Africa,KwaZulu-Natal,2.0,6.0,0.25,HIGH
+LOT00371,South Africa,Eastern Cape,1.04,4.0,0.08,MEDIUM
+LOT00292,Nigeria,Oyo,1.8,8.0,0.15,HIGH
+LOT00071,Kenya,Nairobi,0.8,6.0,0.15,HIGH
+LOT00073,Kenya,Nairobi,0.74,8.0,0.25,HIGH
+LOT00074,Kenya,Nairobi,1.89,4.0,0.0,LOW
+LOT00448,South Africa,KwaZulu-Natal,0.96,4.0,0.08,MEDIUM
+LOT00076,Kenya,Nairobi,1.72,2.0,0.0,LOW
+LOT00077,Kenya,Nairobi,1.57,6.0,0.08,MEDIUM
+LOT00078,Kenya,Nairobi,1.86,2.0,0.0,LOW
+LOT00363,South Africa,Eastern Cape,0.75,6.0,0.25,HIGH
+LOT00081,Kenya,Nairobi,0.73,6.0,0.0,LOW
+LOT00084,Kenya,Nairobi,0.93,2.0,0.0,LOW
+LOT00085,Kenya,Nairobi,0.99,2.0,0.0,LOW
+LOT00086,Kenya,Nairobi,0.96,0.0,0.0,LOW
+LOT00087,Kenya,Nairobi,1.81,8.0,0.25,HIGH
+LOT00088,Kenya,Nairobi,1.75,6.0,0.25,HIGH
+LOT00381,South Africa,Eastern Cape,1.63,4.0,0.08,MEDIUM
+LOT00089,Kenya,Nairobi,1.88,4.0,0.25,HIGH
+LOT00091,Kenya,Nairobi,1.58,4.0,0.25,HIGH
+LOT00093,Kenya,Nairobi,1.42,4.0,0.08,MEDIUM
+LOT00236,Nigeria,Kano,1.25,2.0,0.0,LOW
+LOT00095,Kenya,Nairobi,1.37,2.0,0.0,LOW
+LOT00096,Kenya,Nairobi,1.27,6.0,0.15,HIGH
+LOT00097,Kenya,Nairobi,1.33,4.0,0.08,MEDIUM
+LOT00099,Kenya,Nairobi,1.29,6.0,0.25,HIGH
+LOT00100,Kenya,Nairobi,1.23,4.0,0.15,HIGH
+LOT00101,Kenya,Nairobi,1.3,4.0,0.15,HIGH
+LOT00346,Nigeria,Rivers,1.31,2.0,0.0,LOW
+LOT00103,Kenya,Nairobi,1.15,3.0,0.08,MEDIUM
+LOT00105,Kenya,Nairobi,1.18,2.0,0.0,LOW
+LOT00106,Kenya,Nairobi,0.67,22.0,0.15,HIGH
+LOT00257,Nigeria,Lagos,1.77,4.0,0.0,LOW
+LOT00107,Kenya,Nairobi,0.64,20.0,0.08,MEDIUM
+LOT00108,Kenya,Nairobi,0.68,14.0,0.0,LOW
+LOT00303,Nigeria,Oyo,0.85,6.0,0.15,HIGH
+LOT00114,Kenya,Nairobi,0.81,4.0,0.15,HIGH
+LOT00196,Nigeria,Kaduna,0.82,4.0,0.08,MEDIUM
+LOT00115,Kenya,Nakuru,1.75,8.0,0.15,HIGH
+LOT00116,Kenya,Nakuru,1.86,2.0,0.0,LOW
+LOT00117,Kenya,Nakuru,0.76,22.0,0.15,HIGH
+LOT00118,Kenya,Nakuru,0.76,16.0,0.08,MEDIUM
+LOT00436,South Africa,KwaZulu-Natal,0.79,6.0,0.25,HIGH
+LOT00121,Kenya,Nakuru,1.68,8.0,0.25,HIGH
+LOT00122,Kenya,Nakuru,1.89,6.0,0.25,HIGH
+LOT00126,Kenya,Nakuru,1.37,6.0,0.15,HIGH
+LOT00127,Kenya,Nakuru,1.43,4.0,0.08,MEDIUM
+LOT00274,Nigeria,Lagos,1.15,4.0,0.08,MEDIUM
+LOT00135,Kenya,Uasin Gishu,1.94,4.0,0.0,LOW
+LOT00142,Kenya,Uasin Gishu,1.63,4.0,0.15,HIGH
+LOT00155,Nigeria,FCT,1.71,4.0,0.0,LOW
+LOT00158,Nigeria,FCT,1.49,4.0,0.0,LOW
+LOT00161,Nigeria,FCT,0.81,6.0,0.15,HIGH
+LOT00162,Nigeria,FCT,0.86,4.0,0.08,MEDIUM
+LOT00249,Nigeria,Lagos,0.75,6.0,0.25,HIGH
+LOT00167,Nigeria,FCT,1.78,4.0,0.15,HIGH
+LOT00171,Nigeria,FCT,1.37,4.0,0.08,MEDIUM
+LOT00453,South Africa,KwaZulu-Natal,1.58,6.0,0.15,HIGH
+LOT00176,Nigeria,FCT,1.18,4.0,0.08,MEDIUM
+LOT00184,Nigeria,FCT,0.91,4.0,0.08,MEDIUM
+LOT00178,Nigeria,FCT,1.18,2.0,0.0,LOW
+LOT00181,Nigeria,FCT,0.59,14.0,0.08,MEDIUM
+LOT00305,Nigeria,Oyo,0.91,2.0,0.0,LOW
+LOT00183,Nigeria,FCT,0.95,8.0,0.25,HIGH
+LOT00186,Nigeria,FCT,1.01,2.0,0.0,LOW
+LOT00188,Nigeria,Kaduna,0.7,6.0,0.15,HIGH
+LOT00190,Nigeria,Kaduna,0.71,2.0,0.0,LOW
+LOT00242,Nigeria,Kano,0.61,18.0,0.08,MEDIUM
+LOT00461,South Africa,KwaZulu-Natal,1.22,6.0,0.25,HIGH
+LOT00203,Nigeria,Kaduna,1.41,2.0,0.0,LOW
+LOT00349,Nigeria,Rivers,1.29,6.0,0.25,HIGH
+LOT00446,South Africa,KwaZulu-Natal,1.09,2.0,0.0,LOW
+LOT00267,Nigeria,Lagos,0.83,6.0,0.15,HIGH
+LOT00307,Nigeria,Oyo,1.59,8.0,0.25,HIGH
+LOT00444,South Africa,KwaZulu-Natal,1.14,4.0,0.08,MEDIUM
+LOT00247,Nigeria,Kano,0.9,2.0,0.0,LOW
+LOT00253,Nigeria,Lagos,0.69,2.0,0.0,LOW
+LOT00255,Nigeria,Lagos,1.91,6.0,0.08,MEDIUM
+LOT00266,Nigeria,Lagos,0.91,2.0,0.0,LOW
+LOT00270,Nigeria,Lagos,1.77,4.0,0.15,HIGH
+LOT00398,South Africa,Free State,1.85,4.0,0.25,HIGH
+LOT00284,Nigeria,Lagos,0.68,23.0,0.15,HIGH
+LOT00293,Nigeria,Oyo,1.66,6.0,0.08,MEDIUM
+LOT00287,Nigeria,Lagos,0.94,4.0,0.08,MEDIUM
+LOT00290,Nigeria,Oyo,0.68,4.0,0.08,MEDIUM
+LOT00296,Nigeria,Oyo,1.78,1.0,0.0,LOW
+LOT00313,Nigeria,Oyo,1.5,6.0,0.25,HIGH
+LOT00368,South Africa,Eastern Cape,0.93,16.0,0.08,MEDIUM
+LOT00440,South Africa,KwaZulu-Natal,2.11,4.0,0.0,LOW
+LOT00327,Nigeria,Rivers,0.81,7.0,0.25,HIGH
+LOT00415,South Africa,Gauteng,0.81,6.0,0.15,HIGH
+LOT00405,South Africa,Free State,1.58,6.0,0.25,HIGH
+LOT00347,Nigeria,Rivers,1.37,2.0,0.0,LOW
+LOT00348,Nigeria,Rivers,1.24,4.0,0.08,MEDIUM
+LOT00495,South Africa,Western Cape,2.13,5.0,0.08,MEDIUM
+LOT00417,South Africa,Gauteng,1.98,6.0,0.08,MEDIUM
+LOT00501,South Africa,Western Cape,0.89,26.0,0.15,HIGH
+LOT00380,South Africa,Eastern Cape,1.48,4.0,0.08,MEDIUM
+LOT00387,South Africa,Eastern Cape,1.06,6.0,0.15,HIGH
+LOT00407,South Africa,Free State,1.38,6.0,0.25,HIGH
+LOT00466,South Africa,KwaZulu-Natal,0.69,14.0,0.0,LOW
+LOT00449,South Africa,KwaZulu-Natal,2.01,6.0,0.25,HIGH
+LOT00458,South Africa,KwaZulu-Natal,1.46,4.0,0.08,MEDIUM
+LOT00120,Kenya,Nakuru,0.83,4.0,0.08,MEDIUM
+LOT00230,Nigeria,Kano,1.78,3.0,0.15,HIGH
+LOT00276,Nigeria,Lagos,1.26,6.0,0.25,HIGH
+LOT00175,Nigeria,FCT,1.14,7.0,0.25,HIGH
+LOT00282,Nigeria,Lagos,1.0,2.0,0.0,LOW
+LOT00123,Kenya,Nakuru,1.71,4.0,0.15,HIGH
+LOT00389,South Africa,Free State,0.89,4.0,0.08,MEDIUM
+LOT00130,Kenya,Nakuru,0.6,12.0,0.0,LOW
+LOT00337,Nigeria,Rivers,0.9,6.0,0.15,HIGH
+LOT00125,Kenya,Nakuru,1.52,2.0,0.08,MEDIUM
+LOT00351,Nigeria,Rivers,0.55,39.0,0.25,HIGH
+LOT00129,Kenya,Nakuru,0.58,24.0,0.15,HIGH
+LOT00269,Nigeria,Lagos,1.6,8.0,0.25,HIGH
+LOT00131,Kenya,Nakuru,0.55,16.0,0.0,LOW
+LOT00132,Kenya,Uasin Gishu,0.83,4.0,0.08,MEDIUM
+LOT00279,Nigeria,Lagos,1.19,2.0,0.0,LOW
+LOT00431,South Africa,Gauteng,0.68,20.0,0.15,HIGH
+LOT00433,South Africa,Gauteng,1.23,2.0,0.0,LOW
+LOT00136,Kenya,Uasin Gishu,1.98,2.0,0.0,LOW
+LOT00137,Kenya,Uasin Gishu,1.61,6.0,0.08,MEDIUM
+LOT00172,Nigeria,FCT,1.46,4.0,0.08,MEDIUM
+LOT00139,Kenya,Uasin Gishu,0.87,4.0,0.0,LOW
+LOT00457,South Africa,KwaZulu-Natal,1.53,8.0,0.25,HIGH
+LOT00304,Nigeria,Oyo,0.86,4.0,0.08,MEDIUM
+LOT00143,Kenya,Uasin Gishu,1.3,4.0,0.25,HIGH
+LOT00344,Nigeria,Rivers,1.38,4.0,0.08,MEDIUM
+LOT00145,Kenya,Uasin Gishu,0.97,6.0,0.15,HIGH
+LOT00147,Kenya,Uasin Gishu,0.99,6.0,0.25,HIGH
+LOT00148,Kenya,Uasin Gishu,1.0,4.0,0.08,MEDIUM
+LOT00510,South Africa,Western Cape,1.52,2.0,0.0,LOW
+LOT00198,Nigeria,Kaduna,1.74,4.0,0.15,HIGH
+LOT00278,Nigeria,Lagos,1.23,4.0,0.08,MEDIUM
+LOT00153,Nigeria,FCT,1.66,8.0,0.15,HIGH
+LOT00246,Nigeria,Kano,0.99,6.0,0.15,HIGH
+LOT00197,Nigeria,Kaduna,1.65,8.0,0.25,HIGH
+LOT00154,Nigeria,FCT,1.83,6.0,0.08,MEDIUM
+LOT00423,South Africa,Gauteng,1.99,4.0,0.15,HIGH
+LOT00441,South Africa,KwaZulu-Natal,2.22,4.0,0.0,LOW
+LOT00231,Nigeria,Kano,1.72,2.0,0.0,LOW
+LOT00177,Nigeria,FCT,1.14,4.0,0.15,HIGH
+LOT00156,Nigeria,FCT,1.69,2.0,0.0,LOW
+LOT00403,South Africa,Free State,1.43,4.0,0.08,MEDIUM
+LOT00260,Nigeria,Lagos,0.74,30.0,0.25,HIGH
+LOT00318,Nigeria,Oyo,1.19,6.0,0.25,HIGH
+LOT00374,South Africa,Eastern Cape,2.0,6.0,0.25,HIGH
+LOT00163,Nigeria,FCT,0.92,4.0,0.08,MEDIUM
+LOT00165,Nigeria,FCT,0.75,2.0,0.0,LOW
+LOT00169,Nigeria,FCT,1.25,5.0,0.15,HIGH
+LOT00014,Kenya,Kiambu,1.59,2.0,0.0,LOW
+LOT00205,Nigeria,Kaduna,1.17,2.0,0.0,LOW
+LOT00288,Nigeria,Lagos,0.98,2.0,0.0,LOW
+LOT00366,South Africa,Eastern Cape,2.22,2.0,0.0,LOW
+LOT00428,South Africa,Gauteng,1.6,2.0,0.0,LOW
+LOT00146,Kenya,Uasin Gishu,1.01,4.0,0.08,MEDIUM
+LOT00036,Kenya,Machakos,0.69,4.0,0.0,LOW
+LOT00034,Kenya,Machakos,1.11,4.0,0.15,HIGH
+LOT00430,South Africa,Gauteng,1.4,2.0,0.0,LOW
+LOT00352,Nigeria,Rivers,0.56,6.0,0.0,LOW
+LOT00259,Nigeria,Lagos,1.67,2.0,0.0,LOW
+LOT00168,Nigeria,FCT,1.68,2.0,0.08,MEDIUM
+LOT00102,Kenya,Nairobi,1.33,2.0,0.0,LOW
+LOT00497,South Africa,Western Cape,2.0,2.0,0.0,LOW
+LOT00388,South Africa,Free State,0.99,2.0,0.0,LOW
+LOT00075,Kenya,Nairobi,1.77,2.0,0.0,LOW
+LOT00291,Nigeria,Oyo,0.84,3.0,0.08,MEDIUM
+LOT00173,Nigeria,FCT,1.26,2.0,0.0,LOW
+LOT00064,Kenya,Mombasa,1.35,2.0,0.0,LOW
+LOT00402,South Africa,Free State,1.57,2.0,0.0,LOW
+LOT00006,Kenya,Kiambu,1.96,2.0,0.0,LOW
+LOT00008,Kenya,Kiambu,0.84,10.0,0.0,LOW
+LOT00473,South Africa,Limpopo,0.8,4.0,0.15,HIGH
+LOT00015,Kenya,Kiambu,1.41,4.0,0.08,MEDIUM
+LOT00016,Kenya,Kiambu,1.34,2.0,0.0,LOW
+LOT00285,Nigeria,Lagos,0.58,4.0,0.0,LOW
+LOT00018,Kenya,Kiambu,1.25,4.0,0.15,HIGH
+LOT00140,Kenya,Uasin Gishu,0.85,2.0,0.0,LOW
+LOT00229,Nigeria,Kano,0.93,2.0,0.0,LOW
+LOT00026,Kenya,Machakos,0.82,2.0,0.0,LOW
+LOT00029,Kenya,Machakos,0.88,4.0,0.08,MEDIUM
+LOT00032,Kenya,Machakos,1.32,6.0,0.25,HIGH
+LOT00306,Nigeria,Oyo,0.82,2.0,0.0,LOW
+LOT00038,Kenya,Machakos,0.55,10.0,0.0,LOW
+LOT00068,Kenya,Mombasa,1.01,4.0,0.08,MEDIUM
+LOT00090,Kenya,Nairobi,1.68,2.0,0.0,LOW
+LOT00048,Kenya,Mombasa,1.93,2.0,0.0,LOW
+LOT00150,Nigeria,FCT,0.73,2.0,0.0,LOW
+LOT00054,Kenya,Mombasa,0.94,2.0,0.0,LOW
+LOT00098,Kenya,Nairobi,1.23,2.0,0.0,LOW
+LOT00406,South Africa,Free State,1.54,2.0,0.0,LOW
+LOT00427,South Africa,Gauteng,1.71,4.0,0.08,MEDIUM
+LOT00128,Kenya,Nakuru,1.3,6.0,0.25,HIGH
+LOT00164,Nigeria,FCT,0.89,2.0,0.0,LOW
+LOT00111,Kenya,Nairobi,0.98,2.0,0.0,LOW
+LOT00475,South Africa,Limpopo,2.1,4.0,0.0,LOW
+LOT00298,Nigeria,Oyo,1.58,2.0,0.0,LOW
+LOT00133,Kenya,Uasin Gishu,0.87,4.0,0.08,MEDIUM
+LOT00456,South Africa,KwaZulu-Natal,1.51,2.0,0.0,LOW
+LOT00275,Nigeria,Lagos,1.14,2.0,0.0,LOW
+LOT00144,Kenya,Uasin Gishu,1.35,6.0,0.15,HIGH
+LOT00261,Nigeria,Lagos,0.77,12.0,0.0,LOW
+LOT00494,South Africa,Western Cape,0.85,2.0,0.0,LOW
+LOT00437,South Africa,KwaZulu-Natal,0.82,2.0,0.0,LOW
+LOT00170,Nigeria,FCT,1.35,6.0,0.15,HIGH
+LOT00373,South Africa,Eastern Cape,1.99,8.0,0.25,HIGH
+LOT00174,Nigeria,FCT,1.19,8.0,0.25,HIGH
+LOT00443,South Africa,KwaZulu-Natal,0.98,6.0,0.0,LOW
+LOT00474,South Africa,Limpopo,0.75,5.0,0.25,HIGH
+LOT00221,Nigeria,Kano,1.8,6.0,0.08,MEDIUM
+LOT00454,South Africa,KwaZulu-Natal,1.53,6.0,0.15,HIGH
+LOT00505,South Africa,Western Cape,1.87,6.0,0.25,HIGH
+LOT00336,Nigeria,Rivers,1.64,8.0,0.15,HIGH
+LOT00179,Nigeria,FCT,1.26,1.0,0.0,LOW
+LOT00476,South Africa,Limpopo,0.94,22.0,0.15,HIGH
+LOT00180,Nigeria,FCT,1.01,2.0,0.0,LOW
+LOT00338,Nigeria,Rivers,0.81,4.0,0.08,MEDIUM
+LOT00508,South Africa,Western Cape,1.56,6.0,0.15,HIGH
+LOT00506,South Africa,Western Cape,1.83,2.0,0.0,LOW
+LOT00189,Nigeria,Kaduna,0.78,4.0,0.08,MEDIUM
+LOT00191,Nigeria,Kaduna,1.72,6.0,0.08,MEDIUM
+LOT00470,South Africa,KwaZulu-Natal,1.21,4.0,0.08,MEDIUM
+LOT00393,South Africa,Free State,1.9,4.0,0.0,LOW
+LOT00192,Nigeria,Kaduna,1.71,6.0,0.08,MEDIUM
+LOT00320,Nigeria,Oyo,1.26,2.0,0.0,LOW
+LOT00213,Nigeria,Kaduna,0.9,2.0,0.0,LOW
+LOT00193,Nigeria,Kaduna,1.78,4.0,0.0,LOW
+LOT00277,Nigeria,Lagos,1.27,6.0,0.25,HIGH
+LOT00464,South Africa,KwaZulu-Natal,0.63,26.0,0.08,MEDIUM
+LOT00297,Nigeria,Oyo,1.65,4.0,0.0,LOW
+LOT00206,Nigeria,Kaduna,1.06,2.0,0.08,MEDIUM
+LOT00419,South Africa,Gauteng,0.93,18.0,0.15,HIGH
+LOT00199,Nigeria,Kaduna,1.51,4.0,0.25,HIGH
+LOT00340,Nigeria,Rivers,0.93,1.0,0.0,LOW
+LOT00208,Nigeria,Kaduna,0.63,12.0,0.0,LOW
+LOT00202,Nigeria,Kaduna,1.35,4.0,0.08,MEDIUM
+LOT00459,South Africa,KwaZulu-Natal,1.43,2.0,0.0,LOW
+LOT00211,Nigeria,Kaduna,1.04,2.0,0.0,LOW
+LOT00254,Nigeria,Lagos,1.7,8.0,0.15,HIGH
+LOT00207,Nigeria,Kaduna,0.62,7.0,0.0,LOW
+LOT00413,South Africa,Free State,0.98,2.0,0.0,LOW
+LOT00209,Nigeria,Kaduna,0.96,8.0,0.25,HIGH
+LOT00210,Nigeria,Kaduna,0.92,4.0,0.08,MEDIUM
+LOT00268,Nigeria,Lagos,0.85,2.0,0.0,LOW
+LOT00491,South Africa,Western Cape,0.86,8.0,0.25,HIGH
+LOT00212,Nigeria,Kaduna,0.89,6.0,0.15,HIGH
+LOT00214,Nigeria,Kano,0.75,7.0,0.25,HIGH
+LOT00375,South Africa,Eastern Cape,1.97,6.0,0.25,HIGH
+LOT00218,Nigeria,Kano,0.65,6.0,0.25,HIGH
+LOT00219,Nigeria,Kano,0.66,4.0,0.15,HIGH
+LOT00220,Nigeria,Kano,0.71,4.0,0.08,MEDIUM
+LOT00311,Nigeria,Oyo,1.75,4.0,0.15,HIGH
+LOT00232,Nigeria,Kano,1.43,2.0,0.08,MEDIUM
+LOT00222,Nigeria,Kano,1.69,6.0,0.08,MEDIUM
+LOT00223,Nigeria,Kano,1.83,4.0,0.0,LOW
+LOT00225,Nigeria,Kano,0.74,8.0,0.25,HIGH
+LOT00226,Nigeria,Kano,0.78,8.0,0.25,HIGH
+LOT00227,Nigeria,Kano,0.86,6.0,0.15,HIGH
+LOT00228,Nigeria,Kano,0.9,4.0,0.08,MEDIUM
+LOT00515,South Africa,Western Cape,1.54,6.0,0.25,HIGH
+LOT00372,South Africa,Eastern Cape,0.98,2.0,0.0,LOW
+LOT00265,Nigeria,Lagos,0.85,3.0,0.0,LOW
+LOT00416,South Africa,Gauteng,0.95,4.0,0.08,MEDIUM
+LOT00235,Nigeria,Kano,1.32,4.0,0.08,MEDIUM
+LOT00364,South Africa,Eastern Cape,2.29,6.0,0.08,MEDIUM
+LOT00238,Nigeria,Kano,1.29,2.0,0.0,LOW
+LOT00251,Nigeria,Lagos,0.79,2.0,0.0,LOW
+LOT00452,South Africa,KwaZulu-Natal,1.7,2.0,0.08,MEDIUM
+LOT00412,South Africa,Free State,1.24,2.0,0.0,LOW
+LOT00244,Nigeria,Kano,0.61,22.0,0.15,HIGH
+LOT00245,Nigeria,Kano,0.6,9.0,0.0,LOW
+LOT00386,South Africa,Eastern Cape,1.19,2.0,0.0,LOW
+LOT00485,South Africa,Limpopo,1.55,2.0,0.0,LOW
+LOT00465,South Africa,KwaZulu-Natal,0.69,18.0,0.0,LOW
+LOT00250,Nigeria,Lagos,0.73,4.0,0.08,MEDIUM
+LOT00451,South Africa,KwaZulu-Natal,1.81,4.0,0.15,HIGH
+LOT00520,South Africa,Western Cape,0.73,18.0,0.08,MEDIUM
+LOT00264,Nigeria,Lagos,0.93,4.0,0.08,MEDIUM
+LOT00295,Nigeria,Oyo,1.62,2.0,0.0,LOW
+LOT00379,South Africa,Eastern Cape,1.53,6.0,0.15,HIGH
+LOT00421,South Africa,Gauteng,1.0,2.0,0.0,LOW
+LOT00271,Nigeria,Lagos,1.71,2.0,0.0,LOW
+LOT00272,Nigeria,Lagos,1.44,6.0,0.25,HIGH
+LOT00309,Nigeria,Oyo,1.73,4.0,0.15,HIGH
+LOT00286,Nigeria,Lagos,0.93,4.0,0.08,MEDIUM
+LOT00438,South Africa,KwaZulu-Natal,1.92,7.0,0.15,HIGH
+LOT00394,South Africa,Free State,1.11,6.0,0.15,HIGH
+LOT00360,South Africa,Eastern Cape,0.93,2.0,0.0,LOW
+LOT00435,South Africa,KwaZulu-Natal,0.88,4.0,0.08,MEDIUM
+LOT00420,South Africa,Gauteng,0.96,6.0,0.15,HIGH
+LOT00302,Nigeria,Oyo,0.68,20.0,0.15,HIGH
+LOT00325,Nigeria,Oyo,0.93,8.0,0.25,HIGH
+LOT00301,Nigeria,Oyo,0.78,13.0,0.0,LOW
+LOT00326,Nigeria,Oyo,0.97,4.0,0.08,MEDIUM
+LOT00483,South Africa,Limpopo,1.39,4.0,0.08,MEDIUM
+LOT00332,Nigeria,Rivers,0.63,2.0,0.0,LOW
+LOT00391,South Africa,Free State,1.91,5.0,0.08,MEDIUM
+LOT00482,South Africa,Limpopo,1.8,2.0,0.0,LOW
+LOT00362,South Africa,Eastern Cape,0.86,2.0,0.0,LOW
+LOT00308,Nigeria,Oyo,1.64,6.0,0.25,HIGH
+LOT00499,South Africa,Western Cape,2.01,2.0,0.0,LOW
+LOT00317,Nigeria,Oyo,1.18,10.0,0.25,HIGH
+LOT00334,Nigeria,Rivers,1.84,4.0,0.0,LOW
+LOT00319,Nigeria,Oyo,1.24,3.0,0.08,MEDIUM
+LOT00488,South Africa,Limpopo,1.26,4.0,0.08,MEDIUM
+LOT00321,Nigeria,Oyo,1.04,6.0,0.25,HIGH
+LOT00411,South Africa,Free State,1.15,4.0,0.08,MEDIUM
+LOT00434,South Africa,KwaZulu-Natal,0.85,10.0,0.25,HIGH
+LOT00410,South Africa,Free State,1.25,6.0,0.15,HIGH
+LOT00328,Nigeria,Rivers,0.78,4.0,0.08,MEDIUM
+LOT00329,Nigeria,Rivers,0.73,2.0,0.0,LOW
+LOT00330,Nigeria,Rivers,0.7,6.0,0.25,HIGH
+LOT00339,Nigeria,Rivers,0.8,4.0,0.08,MEDIUM
+LOT00341,Nigeria,Rivers,1.62,4.0,0.15,HIGH
+LOT00367,South Africa,Eastern Cape,0.9,20.0,0.15,HIGH
+LOT00343,Nigeria,Rivers,1.33,6.0,0.15,HIGH
+LOT00460,South Africa,KwaZulu-Natal,1.56,2.0,0.0,LOW
+LOT00504,South Africa,Western Cape,1.15,2.0,0.0,LOW
+LOT00353,Nigeria,Rivers,1.06,8.0,0.25,HIGH
+LOT00354,Nigeria,Rivers,1.06,6.0,0.15,HIGH
+LOT00357,Nigeria,Rivers,0.9,6.0,0.15,HIGH
+LOT00400,South Africa,Free State,1.59,6.0,0.15,HIGH
+LOT00503,South Africa,Western Cape,1.09,4.0,0.08,MEDIUM
+LOT00361,South Africa,Eastern Cape,0.93,4.0,0.15,HIGH
+LOT00397,South Africa,Free State,0.96,4.0,0.08,MEDIUM
+LOT00404,South Africa,Free State,1.46,4.0,0.08,MEDIUM
+LOT00414,South Africa,Gauteng,0.88,2.0,0.0,LOW
+LOT00418,South Africa,Gauteng,2.06,1.0,0.0,LOW
+LOT00490,South Africa,Limpopo,1.07,2.0,0.0,LOW
+LOT00378,South Africa,Eastern Cape,1.88,8.0,0.25,HIGH
+LOT00445,South Africa,KwaZulu-Natal,1.09,4.0,0.08,MEDIUM
+LOT00383,South Africa,Eastern Cape,1.43,4.0,0.08,MEDIUM
+LOT00384,South Africa,Eastern Cape,1.53,8.0,0.25,HIGH
+LOT00502,South Africa,Western Cape,1.14,6.0,0.15,HIGH
+LOT00496,South Africa,Western Cape,2.1,4.0,0.0,LOW
+LOT00455,South Africa,KwaZulu-Natal,1.62,4.0,0.08,MEDIUM
+LOT00422,South Africa,Gauteng,0.9,6.0,0.25,HIGH
+LOT00392,South Africa,Free State,1.94,2.0,0.0,LOW
+LOT00401,South Africa,Free State,1.48,4.0,0.08,MEDIUM
+LOT00399,South Africa,Free State,1.71,2.0,0.0,LOW
+LOT00489,South Africa,Limpopo,1.15,2.0,0.0,LOW
+LOT00409,South Africa,Free State,0.68,8.0,0.0,LOW
+LOT00479,South Africa,Limpopo,1.08,2.0,0.0,LOW
+LOT00429,South Africa,Gauteng,1.44,4.0,0.08,MEDIUM
+LOT00478,South Africa,Limpopo,1.02,4.0,0.08,MEDIUM
+LOT00432,South Africa,Gauteng,0.67,20.0,0.0,LOW
+LOT00442,South Africa,KwaZulu-Natal,2.09,2.0,0.0,LOW
+LOT00513,South Africa,Western Cape,1.44,4.0,0.08,MEDIUM
+LOT00514,South Africa,Western Cape,1.25,4.0,0.08,MEDIUM
+LOT00477,South Africa,Limpopo,0.7,10.0,0.0,LOW
+LOT00468,South Africa,KwaZulu-Natal,0.52,11.0,0.0,LOW
+LOT00480,South Africa,Limpopo,1.9,6.0,0.25,HIGH
+LOT00518,South Africa,Western Cape,1.36,4.0,0.15,HIGH
+LOT00517,South Africa,Western Cape,1.35,2.0,0.0,LOW
+LOT00500,South Africa,Western Cape,1.58,2.0,0.0,LOW
+LOT00521,South Africa,Western Cape,1.23,8.0,0.25,HIGH
+LOT00200,Nigeria,Kaduna,1.77,2.0,0.0,LOW
+LOT00152,Nigeria,FCT,1.86,9.0,0.15,HIGH
+LOT00522,South Africa,Western Cape,1.37,4.0,0.08,MEDIUM
+LOT00469,South Africa,KwaZulu-Natal,1.31,8.0,0.25,HIGH
+LOT00151,Nigeria,FCT,0.65,4.0,0.08,MEDIUM
+LOT00159,Nigeria,FCT,0.73,12.0,0.0,LOW
+LOT00066,Kenya,Mombasa,0.59,30.0,0.15,HIGH
+LOT00021,Kenya,Kiambu,0.61,4.0,0.0,LOW
+LOT00516,South Africa,Western Cape,1.39,4.0,0.08,MEDIUM
+LOT00194,Nigeria,Kaduna,0.82,6.0,0.15,HIGH
+LOT00094,Kenya,Nairobi,1.37,4.0,0.08,MEDIUM
+LOT00511,South Africa,Western Cape,1.58,2.0,0.0,LOW
+LOT00481,South Africa,Limpopo,2.04,2.0,0.08,MEDIUM
+LOT00512,South Africa,Western Cape,1.35,8.0,0.25,HIGH
+LOT00224,Nigeria,Kano,1.72,2.0,0.0,LOW
+LOT00263,Nigeria,Lagos,0.83,6.0,0.15,HIGH
+LOT00519,South Africa,Western Cape,0.83,26.0,0.15,HIGH
+LOT00079,Kenya,Nairobi,0.81,8.0,0.0,LOW
+LOT00239,Nigeria,Kano,1.14,6.0,0.15,HIGH
+LOT00507,South Africa,Western Cape,1.75,4.0,0.15,HIGH
+LOT00523,South Africa,Western Cape,1.28,2.0,0.0,LOW
+LOT00258,Nigeria,Lagos,1.72,4.0,0.0,LOW
+LOT00509,South Africa,Western Cape,1.65,4.0,0.08,MEDIUM
+LOT00057,Kenya,Mombasa,1.49,10.0,0.25,HIGH
+LOT00033,Kenya,Machakos,1.29,4.0,0.15,HIGH
+LOT00324,Nigeria,Oyo,0.55,27.0,0.25,HIGH
+LOT00322,Nigeria,Oyo,1.07,6.0,0.25,HIGH
+LOT00370,South Africa,Eastern Cape,1.07,4.0,0.08,MEDIUM
+LOT00262,Nigeria,Lagos,1.0,5.0,0.15,HIGH
+LOT00069,Kenya,Mombasa,1.05,4.0,0.08,MEDIUM
+LOT00187,Nigeria,FCT,0.89,6.0,0.15,HIGH
+LOT00201,Nigeria,Kaduna,1.31,6.0,0.15,HIGH
+LOT00356,Nigeria,Rivers,0.96,0.0,0.0,LOW
+LOT00484,South Africa,Limpopo,1.53,3.0,0.08,MEDIUM
+LOT00289,Nigeria,Lagos,0.92,6.0,0.15,HIGH
+LOT00382,South Africa,Eastern Cape,1.7,2.0,0.0,LOW
+LOT00157,Nigeria,FCT,1.73,2.0,0.0,LOW
+LOT00020,Kenya,Kiambu,0.67,18.0,0.08,MEDIUM
+LOT00323,Nigeria,Oyo,1.14,2.0,0.0,LOW
+LOT00283,Nigeria,Lagos,0.99,8.0,0.25,HIGH
+LOT00355,Nigeria,Rivers,0.94,1.0,0.0,LOW
+LOT00377,South Africa,Eastern Cape,1.94,4.0,0.15,HIGH
+LOT00385,South Africa,Eastern Cape,1.16,6.0,0.15,HIGH
+LOT00310,Nigeria,Oyo,1.58,4.0,0.15,HIGH
+LOT00447,South Africa,KwaZulu-Natal,1.01,6.0,0.15,HIGH
+LOT00080,Kenya,Nairobi,0.76,37.0,0.25,HIGH
+LOT00119,Kenya,Nakuru,0.88,2.0,0.0,LOW
+LOT00240,Nigeria,Kano,1.14,6.0,0.25,HIGH
+LOT00471,South Africa,KwaZulu-Natal,1.2,2.0,0.0,LOW
+LOT00067,Kenya,Mombasa,0.96,6.0,0.15,HIGH
+LOT00138,Kenya,Uasin Gishu,0.89,18.0,0.08,MEDIUM
+LOT00237,Nigeria,Kano,1.31,2.0,0.0,LOW
+LOT00092,Kenya,Nairobi,1.22,6.0,0.15,HIGH
+LOT00273,Nigeria,Lagos,1.52,4.0,0.25,HIGH
+LOT00149,Nigeria,FCT,0.76,4.0,0.08,MEDIUM
+LOT00007,Kenya,Kiambu,1.63,2.0,0.0,LOW
+LOT00350,Nigeria,Rivers,1.22,2.0,0.0,LOW
+LOT00487,South Africa,Limpopo,1.29,3.0,0.08,MEDIUM
+LOT00217,Nigeria,Kano,0.67,7.0,0.25,HIGH
+LOT00256,Nigeria,Lagos,1.76,6.0,0.08,MEDIUM
+LOT00030,Kenya,Machakos,1.55,8.0,0.25,HIGH
+LOT00040,Kenya,Machakos,1.01,8.0,0.25,HIGH
+LOT00234,Nigeria,Kano,1.32,4.0,0.08,MEDIUM
+LOT00314,Nigeria,Oyo,1.38,4.0,0.08,MEDIUM
+LOT00241,Nigeria,Kano,1.15,2.0,0.0,LOW
+LOT00390,South Africa,Free State,2.07,10.0,0.25,HIGH
+LOT00335,Nigeria,Rivers,1.57,2.0,0.0,LOW
+LOT00216,Nigeria,Kano,0.78,2.0,0.0,LOW
+LOT00243,Nigeria,Kano,0.69,8.0,0.0,LOW
+LOT00426,South Africa,Gauteng,1.74,5.0,0.08,MEDIUM
+LOT00215,Nigeria,Kano,0.77,2.0,0.0,LOW
+LOT00425,South Africa,Gauteng,1.7,4.0,0.25,HIGH
+LOT00492,South Africa,Western Cape,0.88,6.0,0.15,HIGH
+LOT00023,Kenya,Kiambu,0.53,6.0,0.0,LOW
+LOT00166,Nigeria,FCT,1.53,8.0,0.25,HIGH
+LOT00112,Kenya,Nairobi,1.06,8.0,0.25,HIGH
+LOT00110,Kenya,Nairobi,1.05,4.0,0.08,MEDIUM
+LOT00160,Nigeria,FCT,0.98,7.0,0.25,HIGH
+LOT00185,Nigeria,FCT,0.91,4.0,0.08,MEDIUM
+LOT00463,South Africa,KwaZulu-Natal,0.74,16.0,0.08,MEDIUM
+LOT00498,South Africa,Western Cape,2.07,6.0,0.08,MEDIUM
+LOT00072,Kenya,Nairobi,0.76,2.0,0.0,LOW
+LOT00396,South Africa,Free State,1.03,2.0,0.0,LOW
+LOT00345,Nigeria,Rivers,1.31,3.0,0.08,MEDIUM
+LOT00010,Kenya,Kiambu,0.92,6.0,0.15,HIGH
+LOT00134,Kenya,Uasin Gishu,1.85,5.0,0.08,MEDIUM
+LOT00369,South Africa,Eastern Cape,1.03,5.0,0.15,HIGH
+LOT00204,Nigeria,Kaduna,1.21,6.0,0.25,HIGH
+LOT00365,South Africa,Eastern Cape,2.06,2.0,0.0,LOW
+LOT00082,Kenya,Nairobi,0.94,10.0,0.25,HIGH
+LOT00070,Kenya,Mombasa,0.91,4.0,0.08,MEDIUM
+LOT00001,Kenya,Kiambu,0.81,4.0,0.08,MEDIUM
+LOT00141,Kenya,Uasin Gishu,0.75,2.0,0.0,LOW
+LOT00462,South Africa,KwaZulu-Natal,0.75,26.0,0.15,HIGH
+LOT00113,Kenya,Nairobi,1.0,2.0,0.0,LOW
+LOT00028,Kenya,Machakos,1.72,2.0,0.0,LOW
+LOT00083,Kenya,Nairobi,0.9,4.0,0.08,MEDIUM
+LOT00342,Nigeria,Rivers,1.53,7.0,0.25,HIGH
+LOT00312,Nigeria,Oyo,1.72,2.0,0.0,LOW
+LOT00012,Kenya,Kiambu,1.68,6.0,0.25,HIGH
+LOT00408,South Africa,Free State,0.76,22.0,0.15,HIGH
+LOT00300,Nigeria,Oyo,0.8,16.0,0.08,MEDIUM
+LOT00049,Kenya,Mombasa,1.68,4.0,0.0,LOW
+LOT00005,Kenya,Kiambu,2.02,4.0,0.0,LOW
+LOT00376,South Africa,Eastern Cape,2.12,4.0,0.25,HIGH
+LOT00104,Kenya,Nairobi,1.28,4.0,0.15,HIGH
+LOT00124,Kenya,Nakuru,1.68,4.0,0.15,HIGH
+LOT00424,South Africa,Gauteng,2.17,2.0,0.08,MEDIUM
+LOT00439,South Africa,KwaZulu-Natal,2.08,6.0,0.08,MEDIUM
+LOT00467,South Africa,KwaZulu-Natal,0.63,10.0,0.0,LOW
+LOT00233,Nigeria,Kano,1.6,2.0,0.0,LOW
+LOT00395,South Africa,Free State,0.92,4.0,0.08,MEDIUM
+LOT00316,Nigeria,Oyo,1.2,2.0,0.0,LOW
+LOT00331,Nigeria,Rivers,0.69,4.0,0.15,HIGH
+LOT00109,Kenya,Nairobi,0.58,22.0,0.08,MEDIUM
+LOT00019,Kenya,Kiambu,0.6,21.0,0.15,HIGH
+LOT00280,Nigeria,Lagos,1.12,0.0,0.0,LOW
+LOT00182,Nigeria,FCT,0.59,22.0,0.08,MEDIUM
+LOT00248,Nigeria,Lagos,0.74,10.0,0.25,HIGH
