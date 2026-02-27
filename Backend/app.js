@@ -30,8 +30,10 @@ app.use('/api/buyer', buyerRoutes);
 app.use('/api/farmer', farmerRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/logistics', logisticsRoutes);
+app.use('/api/profile', profileRoutes);
+app.use('/api/ai', aiRoutes);
 
-app.get('api/profile', verifyToken, (req, res) => {
+app.get('/api/profile', verifyToken, (req, res) => {
     res.json({ message: "This is a protected profile", userId: req.user.userId });
 });
 
@@ -45,7 +47,7 @@ db.sequelize.sync()
     .then(() => {
         console.log('MySQL Database Connected and Synced');
         server.listen(PORT, () => {
-            console.log(`Server running on http:localhost:${PORT}`);
+            console.log(`Server running on http://localhost:${PORT}`);
         });
     })
     .catch((err) => {
