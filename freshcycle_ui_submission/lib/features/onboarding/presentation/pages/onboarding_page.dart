@@ -17,17 +17,17 @@ class _OnboardingPageState extends State<OnboardingPage> {
     {
       'title': 'Sell & Aggregate',
       'desc': 'Join a community of farmers and bulk sellers to reach larger markets.',
-      'image': 'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800&auto=format&fit=crop', // Fresh vegetables
+      'image': 'assets/images/sell.jpg', // Fresh vegetables
     },
     {
       'title': 'Access Buyers Directly',
-      'desc': 'Connect with retailers and consumers without middle-men markups.',
-      'image': 'https://images.unsplash.com/photo-1578916171728-46686eac8d58?q=80&w=800&auto=format&fit=crop', // Grocery store
+      'desc': 'Connect with retailers and consumers without middle-men markups',
+      'image': 'assets/images/buy.jpg', // store
     },
     {
       'title': 'Track & Preserve',
       'desc': 'Monitor your logistics and reduce post-harvest losses in real-time.',
-      'image': 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=800&auto=format&fit=crop', // Tractor/Field
+      'image': 'assets/images/track.jpg', // Tractor/Field
     },
   ];
 
@@ -68,15 +68,9 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         ),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(24),
-                          child: Image.network(
+                          child: Image.asset(
                             _pages[index]['image']!,
                             fit: BoxFit.cover,
-                            loadingBuilder: (context, child, loadingProgress) {
-                              if (loadingProgress == null) return child;
-                              return const Center(
-                                child: CircularProgressIndicator(strokeWidth: 2),
-                              );
-                            },
                             errorBuilder: (context, error, stackTrace) => const Icon(
                               Icons.broken_image_outlined,
                               size: 50,
