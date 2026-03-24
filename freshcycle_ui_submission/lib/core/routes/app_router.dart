@@ -1,6 +1,5 @@
 import 'package:freshcycle/features/onboarding/presentation/pages/onboarding_page.dart';
 import 'package:go_router/go_router.dart';
-import 'package:flutter/material.dart';
 import '../../features/splash/presentation/pages/splash_page.dart';
 import '../../features/auth/presentation/pages/role_selection_page.dart';
 import '../../features/auth/presentation/pages/signup_page.dart';

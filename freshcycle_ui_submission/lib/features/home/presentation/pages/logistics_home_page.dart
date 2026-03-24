@@ -85,7 +85,7 @@ class LogisticsHomePage extends StatelessWidget {
               Text("Available for Orders", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
             ],
           ),
-          Switch(value: true, onChanged: (v) {}, activeColor: AppColors.primary),
+          Switch(value: true, onChanged: (v) {}, activeThumbColor: AppColors.primary),
         ],
       ),
     );
