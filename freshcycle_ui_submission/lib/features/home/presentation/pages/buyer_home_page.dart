@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../../../core/theme/app_colors.dart';
+import 'package:freshcycle/features/buyer/presentation/pages/buyer_explore_page.dart';
+import 'package:freshcycle/features/buyer/presentation/pages/buyer_orders_page.dart';
+import 'package:freshcycle/features/buyer/presentation/pages/buyer_profile_page.dart';
 
 class BuyerHomePage extends StatefulWidget {
   const BuyerHomePage({super.key});
@@ -10,6 +13,12 @@ class BuyerHomePage extends StatefulWidget {
 
 class _BuyerHomePageState extends State<BuyerHomePage> {
   int _currentIndex = 0;
+
+  final List<Widget> _pages = [
+    const BuyerExplorePage(), 
+    const BuyerOrdersPage(),  
+    const BuyerProfilePage(), 
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -183,7 +192,7 @@ class _BuyerHomePageState extends State<BuyerHomePage> {
               Expanded(
                 child: Container(
                   decoration: BoxDecoration(
-                    color: AppColors.primarySoft.withOpacity(0.1),
+                    color: AppColors.primarySoft.withValues(alpha:0.1),
                     borderRadius: const BorderRadius.vertical(top: Radius.circular(15)),
                   ),
                   child: const Center(child: Icon(Icons.eco, color: AppColors.primary, size: 40)),

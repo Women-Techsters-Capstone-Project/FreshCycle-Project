@@ -63,7 +63,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                         height: 300,
                         width: double.infinity,
                         decoration: BoxDecoration(
-                          color: AppColors.primarySoft.withOpacity(0.1),
+                          color: AppColors.primarySoft.withValues(alpha:0.1),
                           borderRadius: BorderRadius.circular(24),
                         ),
                         child: ClipRRect(
