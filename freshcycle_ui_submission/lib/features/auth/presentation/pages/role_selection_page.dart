@@ -2,86 +2,117 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../core/theme/app_colors.dart';
 
-class RoleSelectionPage extends StatelessWidget {
+class RoleSelectionPage extends StatefulWidget {
   const RoleSelectionPage({super.key});
 
   @override
+  State<RoleSelectionPage> createState() => _RoleSelectionPageState();
+}
+
+class _RoleSelectionPageState extends State<RoleSelectionPage> {
+  DateTime? lastPressed;
+
+  @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: AppColors.background,
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const SizedBox(height: 80),
-              Text(
-                "Select Your Role",
-                style: Theme.of(context).textTheme.displayLarge?.copyWith(
-                  fontSize: 32,
-                  color: AppColors.primaryDark,
-                ),
-              ),
-              const SizedBox(height: 48),
-              
-              // Role Cards
-              _RoleCard(
-                title: "Farmer / Seller",
-                description: "Sell your produce and manage your harvest.",
-                icon: Icons.agriculture_rounded,
-                onTap: () => context.push('/signup', extra: 'farmer'),
-              ),
-              const SizedBox(height: 16),
-              _RoleCard(
-                title: "Buyer / Retailer",
-                description: "Purchase fresh produce directly from the source.",
-                icon: Icons.shopping_bag_rounded,
-                onTap: () => context.push('/signup', extra: 'buyer'),
-              ),
-              const SizedBox(height: 16),
-              _RoleCard(
-                title: "Logistics Provider",
-                description: "Help move produce from farm to market.",
-                icon: Icons.local_shipping_rounded,
-                onTap: () => context.push('/signup', extra: 'logistics'),
-              ),
-              const SizedBox(height: 16),
+    // 1. Wrap with PopScope for the Double-Tap Exit logic
+    return PopScope(
+      canPop: false, // Prevent immediate exit
+      onPopInvokedWithResult: (didPop, result) async {
+        if (didPop) return;
 
-              _RoleCard(
-                  title: "Admin",
-                  description: "Manage users, orders, and system settings.",
-                  icon: Icons.admin_panel_settings_rounded,
-                  onTap: () => context.push('/signup', extra: 'admin'),
-                ),
-                
-                const SizedBox(height: 30),
+        final now = DateTime.now();
+        final maxDuration = const Duration(seconds: 2);
+        final isWarning = lastPressed == null || now.difference(lastPressed!) > maxDuration;
 
-                // Login redirect for existing users
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    const Text("Already have an account? "),
-                    GestureDetector(
-                      onTap: () => context.push('/login'),
-                      child: const Text(
-                        "Login", 
-                        style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.bold),
+        if (isWarning) {
+          lastPressed = now;
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Press back again to exit FreshCycle'),
+              backgroundColor: AppColors.primaryDark,
+              duration: Duration(seconds: 2),
+            ),
+          );
+        } else {
+          // Closes the app if pressed twice within 2 seconds
+          Navigator.of(context).pop(); 
+        }
+      },
+      child: Scaffold(
+        backgroundColor: AppColors.background,
+        body: SafeArea(
+          child: SingleChildScrollView( // Added scroll view to prevent overflow on small screens
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const SizedBox(height: 60),
+                  Text(
+                    "Select Your Role",
+                    style: Theme.of(context).textTheme.displayLarge?.copyWith(
+                          fontSize: 32,
+                          color: AppColors.primaryDark,
+                        ),
+                  ),
+                  const SizedBox(height: 40),
+                  
+                  // Role Cards - Using .push to keep navigation history
+                  _RoleCard(
+                    title: "Farmer / Seller",
+                    description: "Sell your produce and manage your harvest.",
+                    icon: Icons.agriculture_rounded,
+                    onTap: () => context.push('/signup', extra: 'farmer'),
+                  ),
+                  const SizedBox(height: 16),
+                  _RoleCard(
+                    title: "Buyer / Retailer",
+                    description: "Purchase fresh produce directly from the source.",
+                    icon: Icons.shopping_bag_rounded,
+                    onTap: () => context.push('/signup', extra: 'buyer'),
+                  ),
+                  const SizedBox(height: 16),
+                  _RoleCard(
+                    title: "Logistics Provider",
+                    description: "Help move produce from farm to market.",
+                    icon: Icons.local_shipping_rounded,
+                    onTap: () => context.push('/signup', extra: 'logistics'),
+                  ),
+                  const SizedBox(height: 16),
+                  _RoleCard(
+                    title: "Admin",
+                    description: "Manage users, orders, and system settings.",
+                    icon: Icons.admin_panel_settings_rounded,
+                    onTap: () => context.push('/signup', extra: 'admin'),
+                  ),
+                  
+                  const SizedBox(height: 30),
+
+                  // Login redirect
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Text("Already have an account? "),
+                      GestureDetector(
+                        onTap: () => context.push('/login'),
+                        child: const Text(
+                          "Login", 
+                          style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.bold),
+                        ),
                       ),
-                    ),
-                  ],
-                ),
-            ],
+                    ],
+                  ),
+                  const SizedBox(height: 20),
+                ],
+              ),
+            ),
           ),
         ),
       ),
     );
-
   }
 }
 
-          
-      
 
 class _RoleCard extends StatelessWidget {
   final String title;
@@ -109,7 +140,7 @@ class _RoleCard extends StatelessWidget {
           border: Border.all(color: AppColors.border),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.05),
+              color: Colors.black.withValues(alpha:0.05),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -120,7 +151,7 @@ class _RoleCard extends StatelessWidget {
             Container(
               padding: const EdgeInsets.all(12),
               decoration: BoxDecoration(
-                color: AppColors.primarySoft.withOpacity(0.2),
+                color: AppColors.primarySoft.withValues(alpha:0.2),
                 shape: BoxShape.circle,
               ),
               child: Icon(icon, color: AppColors.primary, size: 30),
