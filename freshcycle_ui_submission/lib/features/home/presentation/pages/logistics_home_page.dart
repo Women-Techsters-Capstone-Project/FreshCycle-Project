@@ -71,9 +71,9 @@ class LogisticsHomePage extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
       decoration: BoxDecoration(
-        color: AppColors.primary.withOpacity(0.1),
+        color: AppColors.primary.withValues(alpha:0.1),
         borderRadius: BorderRadius.circular(15),
-        border: Border.all(color: AppColors.primary.withOpacity(0.3)),
+        border: Border.all(color: AppColors.primary.withValues(alpha:0.3)),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -119,7 +119,7 @@ class LogisticsHomePage extends StatelessWidget {
               Text(orderId, style: const TextStyle(fontWeight: FontWeight.bold, color: AppColors.primary)),
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(color: AppColors.primarySoft.withOpacity(0.2), borderRadius: BorderRadius.circular(8)),
+                decoration: BoxDecoration(color: AppColors.primarySoft.withValues(alpha:0.2), borderRadius: BorderRadius.circular(8)),
                 child: Text(type, style: const TextStyle(fontSize: 10, fontWeight: FontWeight.bold, color: AppColors.primaryDark)),
               ),
             ],
