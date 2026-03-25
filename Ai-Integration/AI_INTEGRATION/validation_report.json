@@ -1,0 +1,15 @@
+{
+  "rows_total": 6269,
+  "aggregation_rate_pct": 35.33,
+  "match_rate_pct": 10.43,
+  "spoilage_band_counts": {
+    "Low": 2988,
+    "High": 1940,
+    "Medium": 1341
+  },
+  "match_status_counts": {
+    "Not_Matched": 5615,
+    "AUTO_MATCH": 442,
+    "REVIEW_REQUIRED": 212
+  }
+}
