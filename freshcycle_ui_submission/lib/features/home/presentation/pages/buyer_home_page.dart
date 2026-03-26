@@ -14,47 +14,47 @@ class BuyerHomePage extends StatefulWidget {
 class _BuyerHomePageState extends State<BuyerHomePage> {
   int _currentIndex = 0;
 
-  final List<Widget> _pages = [
-    const BuyerExplorePage(), 
-    const BuyerOrdersPage(),  
-    const BuyerProfilePage(), 
-  ];
-
   @override
   Widget build(BuildContext context) {
+    final pages = <Widget>[
+      _buildHomeContent(),
+      const BuyerExplorePage(),
+      const BuyerOrdersPage(),
+      const BuyerProfilePage(),
+    ];
+
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: SafeArea(
-        child: SingleChildScrollView(
-          padding: const EdgeInsets.symmetric(horizontal: 20.0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 20),
-              // Header
-              _buildHeader(),
-              const SizedBox(height: 20),
-              // Search Bar
-              _buildSearchBar(),
-              const SizedBox(height: 24),
-              // Promotion Banner
-              _buildPromoBanner(),
-              const SizedBox(height: 30),
-              // Categories
-              _buildSectionHeader("Categories"),
-              const SizedBox(height: 16),
-              _buildCategoryChips(),
-              const SizedBox(height: 30),
-              // Product Grid
-              _buildSectionHeader("Fresh Arrivals"),
-              const SizedBox(height: 16),
-              _buildProductGrid(),
-              const SizedBox(height: 30),
-            ],
-          ),
+      body: pages[_currentIndex],
+      bottomNavigationBar: _buildBottomNav(),
+    );
+  }
+
+  Widget _buildHomeContent() {
+    return SafeArea(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const SizedBox(height: 20),
+            _buildHeader(),
+            const SizedBox(height: 20),
+            _buildSearchBar(),
+            const SizedBox(height: 24),
+            _buildPromoBanner(),
+            const SizedBox(height: 30),
+            _buildSectionHeader("Categories"),
+            const SizedBox(height: 16),
+            _buildCategoryChips(),
+            const SizedBox(height: 30),
+            _buildSectionHeader("Fresh Arrivals"),
+            const SizedBox(height: 16),
+            _buildProductGrid(),
+            const SizedBox(height: 30),
+          ],
         ),
       ),
-      bottomNavigationBar: _buildBottomNav(),
     );
   }
 

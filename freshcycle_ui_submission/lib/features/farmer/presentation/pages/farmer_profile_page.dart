@@ -24,7 +24,7 @@ class FarmerProfilePage extends StatelessWidget {
               child: Icon(Icons.person, size: 50, color: AppColors.primary),
             ),
             const SizedBox(height: 16),
-            const Text("Farmer John Doe", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+            const Text("Farmer Panashe Tanyanyiwa", style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
             const Text("Ogun State, Nigeria", style: TextStyle(color: AppColors.textSecondary)),
             const SizedBox(height: 32),
 

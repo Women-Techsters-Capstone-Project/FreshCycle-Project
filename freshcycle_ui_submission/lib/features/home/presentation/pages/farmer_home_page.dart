@@ -56,7 +56,7 @@ class _FarmerHomePageState extends State<FarmerHomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Welcome Text
-              const Text("Hello, Farmer John!", style: TextStyle(color: AppColors.textSecondary, fontSize: 16)),
+              const Text("Hello, Farmer Panashe!", style: TextStyle(color: AppColors.textSecondary, fontSize: 16)),
               const SizedBox(height: 8),
               const Text("Your Farm Overview", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold, color: AppColors.textPrimary)),
               const SizedBox(height: 24),

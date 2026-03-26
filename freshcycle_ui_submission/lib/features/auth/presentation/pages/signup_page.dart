@@ -35,7 +35,7 @@ class _SignupPageState extends State<SignupPage> {
             const SizedBox(height: 40),
             
             // Text Fields
-            _buildTextField(label: "Full Name", hint: "John Doe", icon: Icons.person_outline),
+            _buildTextField(label: "Full Name", hint: "Panashe Tanyanyiwa", icon: Icons.person_outline),
             const SizedBox(height: 16),
             _buildTextField(label: "Email Address", hint: "example@freshcycle.com", icon: Icons.email_outlined),
             const SizedBox(height: 16),

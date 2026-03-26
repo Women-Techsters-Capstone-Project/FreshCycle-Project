@@ -14,7 +14,7 @@ class BuyerProfilePage extends StatelessWidget {
             const SizedBox(height: 40),
             const CircleAvatar(radius: 50, child: Icon(Icons.person, size: 50)),
             const SizedBox(height: 16),
-            const Text("John Buyer", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const Text("Panashe Buyer", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             const SizedBox(height: 32),
             _buildTile(Icons.location_on_outlined, "Shipping Addresses"),
             _buildTile(Icons.payment_outlined, "Payment Methods"),

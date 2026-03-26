@@ -1,1 +1,1 @@
-const String BASE_URL = 'https://backendfreshcycle.onrender.com';
+const String baseUrl = 'https://backendfreshcycle.onrender.com';
