@@ -168,18 +168,43 @@ class _BuyerHomePageState extends State<BuyerHomePage> {
     );
   }
 
-  Widget _buildProductGrid() {
+  Widget _buildProductGrid(){
+    // NEW: Nigerian local produce data mapping
+    final List<Map<String, String>> freshArrivals = [
+      {
+        'name': 'Red Onions',
+        'price': '₦1,200 /kg',
+        'image': 'assets/images/redonions.jpg',
+      },
+      {
+        'name': 'Roma Tomatoes',
+        'price': '₦800 /kg',
+        'image': 'assets/images/tomatoes.jpg',
+      },
+      {
+        'name': 'Sweet Potatoes',
+        'price': '₦1,500 /5kg',
+        'image': 'assets/images/sweet_potatoes.jpg',
+      },
+      {
+        'name': 'Fresh Spinach',
+        'price': '₦400 /bundle',
+        'image': 'assets/images/spinach.jpg',
+      },
+    ];
+
     return GridView.builder(
       shrinkWrap: true,
       physics: const NeverScrollableScrollPhysics(),
-      itemCount: 4,
+      itemCount: freshArrivals.length,
       gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
         crossAxisSpacing: 15,
         mainAxisSpacing: 15,
-        childAspectRatio: 0.8,
+        childAspectRatio: 0.75,
       ),
       itemBuilder: (context, index) {
+        final product = freshArrivals[index];
         return Container(
           decoration: BoxDecoration(
             color: AppColors.surface,
@@ -190,12 +215,23 @@ class _BuyerHomePageState extends State<BuyerHomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: AppColors.primarySoft.withValues(alpha:0.1),
-                    borderRadius: const BorderRadius.vertical(top: Radius.circular(15)),
+                child: ClipRRect(
+                  borderRadius:
+                      const BorderRadius.vertical(top: Radius.circular(15)),
+                  child: Image.asset(
+                    product['image']!,
+                    width: double.infinity,
+                    fit: BoxFit.cover,
+                    // Safety check if images are missing
+                    errorBuilder: (context, error, stackTrace) {
+                      return Container(
+                        color: AppColors.primarySoft.withValues(alpha: 0.1),
+                        child: const Center(
+                            child: Icon(Icons.eco,
+                                color: AppColors.primary, size: 40)),
+                      );
+                    },
                   ),
-                  child: const Center(child: Icon(Icons.eco, color: AppColors.primary, size: 40)),
                 ),
               ),
               Padding(
@@ -203,9 +239,16 @@ class _BuyerHomePageState extends State<BuyerHomePage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text("Red Onions", style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text(product['name']!,
+                        style: const TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 14),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis),
                     const SizedBox(height: 4),
-                    const Text("₦2,500 / bag", style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.bold)),
+                    Text(product['price']!,
+                        style: const TextStyle(
+                            color: AppColors.primary,
+                            fontWeight: FontWeight.bold)),
                     const SizedBox(height: 8),
                     SizedBox(
                       width: double.infinity,
@@ -213,9 +256,13 @@ class _BuyerHomePageState extends State<BuyerHomePage> {
                         onPressed: () {},
                         style: OutlinedButton.styleFrom(
                           side: const BorderSide(color: AppColors.primary),
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                          shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8)),
+                          padding: EdgeInsets.zero,
                         ),
-                        child: const Text("Add", style: TextStyle(color: AppColors.primary, fontSize: 12)),
+                        child: const Text("Add",
+                            style:
+                                TextStyle(color: AppColors.primary, fontSize: 12)),
                       ),
                     ),
                   ],
